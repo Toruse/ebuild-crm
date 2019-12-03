@@ -1,0 +1,35 @@
+.button-bg-clear {
+    border: none; 
+    background: none
+}
+
+.color-view {
+    display: inline-block;
+    height: 16px;
+    vertical-align: text-top;
+    width: 16px;
+}
+
+.button-edit-project-style, .button-delete-project-style {
+    color: #afcee9;
+    cursor: pointer;
+}
+
+.iframe-modal-body {
+    overflow: hidden !important;
+}
+
+.iframe-container {
+    overflow: hidden;
+    height: 100%;
+    position: relative;
+}
+
+.iframe-container iframe {
+    border: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
